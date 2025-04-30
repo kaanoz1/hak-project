@@ -36,10 +36,10 @@ const Page: NextPage<Props> = ({ id }) => {
           <div className="flex flex-col gap-6 w-1/2">
             <div className="flex items-center gap-4">
               <div className="border p-3 rounded-full">
-                <FaMapMarkerAlt size={18} />
+                <FaMapMarkerAlt size={18} className="text-black" />
               </div>
               <span
-                className={`text-base md:text-lg ${decalotypeMedium.className}`}
+                className={`text-base md:text-lg ${decalotypeMedium.className} text-black`}
               >
                 Lüleburgaz / Kırklareli
               </span>
@@ -47,16 +47,16 @@ const Page: NextPage<Props> = ({ id }) => {
 
             <div className="flex items-start gap-4">
               <div className="border p-3 rounded-full">
-                <FaPhone size={18} />
+                <FaPhone size={18} className="text-black" />
               </div>
               <div className="flex flex-col gap-1">
-                <span className={`${decalotypeMedium.className}`}>
+                <span className={`${decalotypeMedium.className} text-black`}>
                   +90 541 299 71 88 (Ofis)
                 </span>
-                <span className={`${decalotypeMedium.className}`}>
+                <span className={`${decalotypeMedium.className} text-black`}>
                   +90 545 307 81 60 (Ofis)
                 </span>
-                <span className={`${decalotypeMedium.className}`}>
+                <span className={`${decalotypeMedium.className} text-black`}>
                   +90 538 592 64 32 (Saha)
                 </span>
               </div>
@@ -64,12 +64,12 @@ const Page: NextPage<Props> = ({ id }) => {
 
             <div className="flex items-center gap-4">
               <div className="border p-3 rounded-full">
-                <FaEnvelope size={18} />
+                <FaEnvelope size={18} className="text-black" />
               </div>
               <span
-                className={`text-base md:text-lg ${decalotypeMedium.className}`}
+                className={`text-base md:text-lg text-black ${decalotypeMedium.className}`}
               >
-                info@kartaltemizlik.com
+                kartaltemizlik39@gmail.com
               </span>
             </div>
           </div>

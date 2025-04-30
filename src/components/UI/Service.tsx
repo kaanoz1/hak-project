@@ -16,7 +16,7 @@ const Service: FC<Props> = ({ service }) => {
       >
         {serviceName}
       </h2>
-      <p className={`${decalotypeSemiBold.className} leading-relaxed`}>
+      <p className={`${decalotypeSemiBold.className} text-black leading-relaxed`}>
         {serviceDescription}
       </p>
     </section>
